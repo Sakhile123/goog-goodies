@@ -228,12 +228,21 @@ margin: 13px;
 }
 @media screen and (max-width: 768px) {
     img {
-        /* Adjust image styling for smaller screens if needed */
+       width: auto;
+       height: auto;
+    }
+    .container-image{
+        display: flex;
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 480px) {
     img {
-        /* Further adjustments for even smaller screens if needed */
+        width: auto;
+        height: auto;
     }
+    .container-image{
+        display: flex;
+        flex-direction: column;
 }
